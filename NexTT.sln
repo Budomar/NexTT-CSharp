@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTT.Core", "NexTT.Core\NexTT.Core.csproj", "{D8F4B669-753C-469C-9AC5-C01509565706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTT.Tests", "NexTT.Tests\NexTT.Tests.csproj", "{898E3DDC-8D5A-4176-B3FC-DFC876EDC365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F4B669-753C-469C-9AC5-C01509565706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F4B669-753C-469C-9AC5-C01509565706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F4B669-753C-469C-9AC5-C01509565706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F4B669-753C-469C-9AC5-C01509565706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898E3DDC-8D5A-4176-B3FC-DFC876EDC365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898E3DDC-8D5A-4176-B3FC-DFC876EDC365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898E3DDC-8D5A-4176-B3FC-DFC876EDC365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898E3DDC-8D5A-4176-B3FC-DFC876EDC365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

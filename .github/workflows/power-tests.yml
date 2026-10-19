@@ -1,0 +1,20 @@
+name: Power golden tests
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  power:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet test NexTT.sln --configuration Release --logger "trx;LogFileName=power.trx" --results-directory TestResults
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: power-results-${{ matrix.os }}
+          path: TestResults/*.trx

@@ -1,0 +1,12 @@
+$ dotnet test NexTT.sln --configuration Release --no-restore --logger console;verbosity=minimal --logger trx;LogFileName=power.trx --results-directory TestResults
+  NexTT.Core -> /home/chad/.run/nextt_power/deliverable/NexTT.Core/bin/Release/net8.0/NexTT.Core.dll
+  NexTT.Tests -> /home/chad/.run/nextt_power/deliverable/NexTT.Tests/bin/Release/net8.0/NexTT.Tests.dll
+Test run for /home/chad/.run/nextt_power/deliverable/NexTT.Tests/bin/Release/net8.0/NexTT.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:  1024, Skipped:     0, Total:  1024, Duration: 76 ms - NexTT.Tests.dll (net8.0)
+WARNING: Overwriting results file: /home/chad/.run/nextt_power/deliverable/TestResults/power.trx
+Results File: /home/chad/.run/nextt_power/deliverable/TestResults/power.trx

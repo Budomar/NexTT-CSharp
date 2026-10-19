@@ -1,0 +1,9 @@
+$ dotnet test NexTT.sln --configuration Release --no-build --no-restore --filter FullyQualifiedName~PalletCalculatorTests --logger console;verbosity=minimal --logger trx;LogFileName=pallet.trx --results-directory TestResults
+Test run for /home/chad/.run/pallet/deliverable/NexTT.Tests/bin/Release/net8.0/NexTT.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:   859, Skipped:     0, Total:   859, Duration: 87 ms - NexTT.Tests.dll (net8.0)
+Results File: /home/chad/.run/pallet/deliverable/TestResults/pallet.trx
