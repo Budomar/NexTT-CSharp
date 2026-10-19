@@ -1,0 +1,5 @@
+$ dotnet restore NexTT.sln --ignore-failed-sources
+
+  Determining projects to restore...
+  Restored /home/chad/.run/brackets_work/cs/NexTT.Core/NexTT.Core.csproj (in 62 ms).
+  Restored /home/chad/.run/brackets_work/cs/NexTT.Tests/NexTT.Tests.csproj (in 403 ms).
